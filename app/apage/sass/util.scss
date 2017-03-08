@@ -1,0 +1,5 @@
+$baseFontSize: 16px !default;
+
+@function pxToRem($px) {
+  @return $px / $baseFontSize * 1rem;
+}

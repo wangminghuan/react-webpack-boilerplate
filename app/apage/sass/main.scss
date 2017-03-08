@@ -1,0 +1,12 @@
+@import 'util.scss';
+
+@mixin center-block {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.header {
+    @include center-block;
+    color: #e46240;
+    font-size: pxToRem(25px);
+}
